@@ -16,7 +16,7 @@ export default function Home() {
                     <div className="relative px-4 sm:px-8 lg:px-12 space-y-6">
                         <h1 className="font-serif text-white tracking-tight text-7xl md:text-9xl mt-4">R<span>·</span>Akbar</h1>
                         <div className="flex items-center gap-4">
-                            <svg className="animate-wiggle w-6 h-6 md:w-12 md:h-12 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+                            <svg className="w-6 h-6 md:w-12 md:h-12 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
                                 <path fillRule="evenodd" d="M380 270h-20v20h-60v40h-20v20H40v-20H20V50h280v40h60v20h20v160Zm-170-20H110v20h100v-20Zm130-120h-40v120h40V130ZM110 230H90v20h20v-20Zm120 0h-20v20h20v-20Zm20-20h-20v20h20v-20Zm-160 0H70v20h20v-20Zm30-100h-20v40h20v-40Zm110 0h-20v40h20v-40Z" />
                             </svg>
                             <h3 className="text-white font-vt323 uppercase tracking-tight text-2xl md:text-6xl">
