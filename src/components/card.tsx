@@ -33,7 +33,7 @@ export const Highlight = ({
 const CARDS = [
     {
         id: 0,
-        name: "Manu Arora",
+        name: "R. Akbar",
         designation: "Senior Software Engineer",
         content: (
             <p>
