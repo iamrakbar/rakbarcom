@@ -37,7 +37,7 @@ export default function Home() {
                         </Draggable>
                         <Draggable label={'Description'} dragConstraints={constraintsDraggableRef}>
                             <p className="font-mono max-w-2xl">
-                                {`I'm an independent software developer with a focus on crafting web and mobile applications.`}
+                                {`I'm an independent software designer and developer with a focus on crafting web and mobile applications.`}
                             </p>
                         </Draggable>
                         <Draggable label={'Socials'} dragConstraints={constraintsDraggableRef}>

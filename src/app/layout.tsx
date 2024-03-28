@@ -29,8 +29,8 @@ const vt323 = VT323({
 })
 
 export const metadata: Metadata = {
-    title: "R Akbar",
-    description: "Creative Developer",
+    title: "Risky Akbar",
+    description: "Independent Software Designer and Developer",
 };
 
 export default function RootLayout({
