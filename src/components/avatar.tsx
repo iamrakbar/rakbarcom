@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Avatar = () => <div>
     <div
-        className="block w-36 h-36 md:w-40 md:h-40 p-2 bg-white rounded-full overflow-hidden">
+        className="block w-36 h-36 md:w-48 md:h-48 p-2 bg-white rounded-full overflow-hidden">
         <Image
             src={`/assets/img/me.png`}
             alt={'me'}

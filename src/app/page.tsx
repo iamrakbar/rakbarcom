@@ -14,16 +14,16 @@ export default function Home() {
             <motion.div ref={constraintsDraggableRef} className="relative grid place-items-center min-h-svh bg-blue-700 text-white overflow-hidden">
                 <Noise />
                 <div className="mx-auto w-full max-w-5xl lg:px-8">
-                    <div className="relative max-w-3xl px-4 sm:px-8 lg:px-12 space-y-4 md:space-y-6">
-                        <div className="md:absolute right-0">
+                    <div className="relative max-w-3xl px-4 sm:px-8 lg:px-12 space-y-4 md:space-y-8">
+                        <div className="flex flex-col md:flex-row-reverse items-start md:items-center gap-4 md:gap-8">
                             <Draggable label={'Avatar'} dragConstraints={constraintsDraggableRef}>
                                 <Avatar />
                             </Draggable>
+                            <Draggable label={'Name'} dragConstraints={constraintsDraggableRef}>
+                                <h1 className="m-0 p-0 font-serif italic leading-none tracking-tight text-6xl md:text-9xl">Risky Akbar</h1>
+                            </Draggable>
                         </div>
-                        <Draggable label={'Name'} dragConstraints={constraintsDraggableRef}>
-                            <h1 className="font-serif italic tracking-tight text-7xl md:text-9xl">R<span>·</span>Akbar</h1>
-                        </Draggable>
-                        <Draggable label={'Jobs'} dragConstraints={constraintsDraggableRef}>
+                        <Draggable label={'Work'} dragConstraints={constraintsDraggableRef}>
                             <div className="flex items-center">
                                 <svg className="w-5 h-5 md:w-12 md:h-12" fill="currentColor" role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M380 270h-20v20h-60v40h-20v20H40v-20H20V50h280v40h60v20h20v160Zm-170-20H110v20h100v-20Zm130-120h-40v120h40V130ZM110 230H90v20h20v-20Zm120 0h-20v20h20v-20Zm20-20h-20v20h20v-20Zm-160 0H70v20h20v-20Zm30-100h-20v40h20v-40Zm110 0h-20v40h20v-40Z" />
@@ -83,9 +83,9 @@ export default function Home() {
                         </Draggable>
                         <div>
                             <Draggable label={'Message'} dragConstraints={constraintsDraggableRef}>
-                                <p className="opacity-50">
+                                <p>
                                     <span className="">♺</span>
-                                    <span className="font-mono ml-2">Please Recycle</span>
+                                    <span className="font-mono ml-2 opacity-70">Please Recycle</span>
                                 </p>
                             </Draggable>
                         </div>
