@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-plus_jakarta_sans)'],
+        serif: ['var(--font-lora)'],
         vt323: ['var(--font-vt323)'],
       },
       keyframes: {
