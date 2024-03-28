@@ -44,8 +44,8 @@ export default function RootLayout({
 
             <body className={`${plus_jakarta_sans.variable} ${lora.variable} ${vt323.variable} font-sans`}>
                 {children}
+                <Analytics />
             </body>
-            <Analytics />
         </html>
     );
 }
