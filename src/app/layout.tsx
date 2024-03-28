@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react"
 import { Lora, Plus_Jakarta_Sans, VT323 } from "next/font/google";
 import colors from 'tailwindcss/colors'
 
@@ -44,6 +45,7 @@ export default function RootLayout({
             <body className={`${plus_jakarta_sans.variable} ${lora.variable} ${vt323.variable} font-sans`}>
                 {children}
             </body>
+            <Analytics />
         </html>
     );
 }
